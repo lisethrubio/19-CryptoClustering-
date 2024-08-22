@@ -5,11 +5,12 @@
 
 1. Jupyter notebook or VS code can be used to visualize the code and charts.
 2. Python and the libraries *`scikit-learn`* and *`hvPlot`* need to be installed. 
-3. In this repository, the "Resources" folder contains the "crypto_market_data.csv" file with raw data. The "Crypto_Clustering.ipynb" file contains the code. 
+3. In this repository, the "Resources" folder contains the "crypto_market_data.csv" file with raw data. The "Crypto_Clustering.ipynb" file contains the code.
+4. The asnwers to all the questions are commented in the "Crypto_Clustering.ipynb" file.  
 
 ## Description: 
 
-Using knowledge of Python and unsupervised learning, this assignment aims to predict whether cryptocurrencies are influenced by 24-hour or 7-day price changes. The code is divided into seven sections:
+Using knowledge of Python and unsupervised learning, this assignment aims to predict whether cryptocurrencies are influenced by 24-hour or 7-day price changes. The code is divided into 8 sections:
 
 - **Part 1**: Loading the raw data by reading the CSV file into a pandas DataFrame.
 
@@ -23,7 +24,7 @@ Using knowledge of Python and unsupervised learning, this assignment aims to pre
 
 - **Part 6:** After optimizing the clusters using *`PCA`*, the *`Elbow Method`* is applied again to identify the optimal value of *`k`* for the optimized clusters. Similar to Part 3, a *`For Loop`*, dictionary, and DataFrame are created to plot the elbow curve.
 
-- **Part 7:** Using the PCA-transformed data, cryptocurrencies are clustered again using the *`KMeans model`*, this time incorporating the *`Elbow Method`* and *  *`PCA-optimized clusters`*. The PCA data is fitted and transformed, and a DataFrame is created to plot a scatter plot that visualizes the distinct clusters.
+- **Part 7:** Using the PCA-transformed data, cryptocurrencies are clustered again using the *`KMeans model`*, this time incorporating the *`Elbow Method`* and *`PCA-optimized clusters`*. The PCA data is fitted and transformed, and a DataFrame is created to plot a scatter plot that visualizes the distinct clusters.
 
 - **Part 8:** A composite plot variable is created to contrast the elbow curves generated in Parts 3 and 6. Additionally, a composite plot variable is created to contrast the clusters formed in Parts 4 and 7.
 
