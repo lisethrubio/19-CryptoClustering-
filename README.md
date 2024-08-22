@@ -6,7 +6,7 @@
 1. Jupyter notebook or VS code can be used to visualize the code and charts.
 2. Python and the libraries *`scikit-learn`* and *`hvPlot`* need to be installed. 
 3. In this repository, the "Resources" folder contains the "crypto_market_data.csv" file with raw data. The "Crypto_Clustering.ipynb" file contains the code.
-4. The asnwers to all the questions are commented in the "Crypto_Clustering.ipynb" file.  
+4. The answers to all the questions are commented in the "Crypto_Clustering.ipynb" file.  
 
 ## Description: 
 
